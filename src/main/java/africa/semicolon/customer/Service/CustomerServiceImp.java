@@ -33,7 +33,6 @@ public class CustomerServiceImp implements CustomerService{
         customer.setAddress(addCustomerRequest.getAddress());
         customer.setPassword(addCustomerRequest.getPassword());
         customer.setGender(addCustomerRequest.getGender());
-        repository.save(customer);
 
         Customer savedCustomer = repository.save(customer);
 

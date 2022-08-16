@@ -18,7 +18,7 @@ public class Message {
     private String email;
     private Gender gender;
     private  String address;
-    private Set<Billing>billingDetails;
+//    private Set<Billing>billingDetails;
 
 
 

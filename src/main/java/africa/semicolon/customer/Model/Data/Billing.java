@@ -18,7 +18,7 @@ public class Billing {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
     private String accountNumber;
     @Column(nullable = false)
     private String tariff;
